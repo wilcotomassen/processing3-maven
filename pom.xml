@@ -1,0 +1,55 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.cardboardcode</groupId>
+	<artifactId>processing-template</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>P5 Template</name>
+	<description>Processing template</description>
+	<dependencies>
+		<!-- Core requirements -->
+		<dependency>
+			<groupId>org.processing</groupId>
+			<artifactId>core</artifactId>
+			<version>3.2.3</version>
+		</dependency>
+		<!-- Video requirements -->
+		<dependency>
+			<groupId>org.processing</groupId>
+			<artifactId>video</artifactId>
+			<version>3.2.3</version>
+		</dependency>
+		<dependency>
+			<groupId>net.java.dev.jna</groupId>
+			<artifactId>jna</artifactId>
+			<version>4.5.1</version>
+		</dependency>
+		<dependency>
+			<groupId>net.java.dev.jna</groupId>
+			<artifactId>jna-platform</artifactId>
+			<version>4.5.1</version>
+		</dependency>
+		<!-- PDF requirements -->
+		<dependency>
+			<groupId>org.processing</groupId>
+			<artifactId>pdf</artifactId>
+			<version>3.2.3</version>
+		</dependency>
+		<!-- Networking requirements -->
+		<dependency>
+			<groupId>org.processing</groupId>
+			<artifactId>net</artifactId>
+			<version>3.2.3</version>
+		</dependency>
+		<!-- Serial requirements -->
+		<dependency>
+			<groupId>org.processing</groupId>
+			<artifactId>serial</artifactId>
+			<version>3.2.3</version>
+		</dependency>
+	</dependencies>
+	<properties>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+	</properties>
+</project>
