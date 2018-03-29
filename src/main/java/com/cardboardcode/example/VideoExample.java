@@ -38,7 +38,7 @@ public class VideoExample extends PApplet {
 		
 		// Set the native library paths that are required for  
 		// the video library to work
-		NativeLibraryPath.setVideoLibraryPaths();
+		NativeLibraryPath.setLibraryPath();
 		
 		// Start the application
 		PApplet.main(VideoExample.class.getName());

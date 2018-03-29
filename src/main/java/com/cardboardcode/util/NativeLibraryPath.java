@@ -5,12 +5,11 @@ import java.io.File;
 public class NativeLibraryPath {
 	
 	/**
-	 * Set the native library paths that are required for the video
-	 * library; requires the native.library.path property/VM argument
-	 * to be set to the native-libs directory containing the platform
+	 * Set the native library paths that are required; requires the native.library.path 
+	 * property/VM argument to be set to the native-libs directory containing the platform
 	 * native libraries.
 	 */
-	public static void setVideoLibraryPaths() {
+	public static void setLibraryPath() {
 		
 		// Get library path from VM arguments
 		String nativeLibraryPath = System.getProperty("native.library.path");
