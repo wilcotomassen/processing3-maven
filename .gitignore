@@ -1,3 +1,6 @@
+# P5 template specifics
+native-libs
+
 # Eclipse
 .classpath
 .project
